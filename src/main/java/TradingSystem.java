@@ -31,4 +31,8 @@ public class TradingSystem {
     private static void activatePowerPegMode() {
         System.out.println("Hàm này sẽ gây ra lỗi Knight Capital!");
     }
+        // Thêm đoạn này vào cuối class TradingSystem
+    private static void activatePowerPegMode() {
+        System.out.println("Hàm này sẽ gây ra lỗi Knight Capital!");
+    }
 }
