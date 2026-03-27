@@ -15,10 +15,10 @@ public class TradingSystem {
             activatePowerPegMode(); 
         }
     }
-    private static void activatePowerPegMode() {
+    private static void activatePowerPegMode() 
         int orders = 0;
         while (true) {
-            orders++;
+            orders--;
             System.out.println(ANSI_RED + "[CRITICAL] Power Peg Active: Mua co phieu lenh thu " + orders + ANSI_RESET);
             if (orders > 1000) break; // Dừng giả lập sau 1000 lệnh
         }
