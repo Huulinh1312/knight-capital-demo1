@@ -17,7 +17,7 @@ public class TradingSystem {
         }
     }
 
-    private static void activatePowerPegMode() {
+    private static void activatePower() {
         int orders = 0;
         while (true) {
             orders++;
@@ -25,10 +25,5 @@ public class TradingSystem {
             if (orders > 1000)
                 break; // Dừng giả lập sau 1000 lệnh
         }
-    }
-
-    // Thêm đoạn này vào cuối class TradingSystem
-    private static void activatePowerPegMode() {
-        System.out.println("Hàm này sẽ gây ra lỗi Knight Capital!");
     }
 }
